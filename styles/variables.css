@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-gray-950: hsl(216, 12%, 8%);
+  --color-gray-900: hsl(213, 19%, 18%);
+  --color-gray-500: hsl(217, 12%, 63%);
+  --color-orange: hsl(25, 97%, 53%);
+
+  --font-family: 'Overpass', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
