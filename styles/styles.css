@@ -23,6 +23,7 @@ body {
 
 .rating__card {
   max-width: 330px;
+  height: 360px;
   margin: 0 auto;
   padding: 24px;
   border-radius: 15px;
@@ -89,6 +90,16 @@ body {
   cursor: pointer;
 
   &:hover {
+    background-color: var(--color-white);
+    color: var(--color-gray-950);
+  }
+}
+
+.rating__button--active {
+  background-color: var(--color-orange);
+  color: var(--color-gray-950);
+
+  &:hover {
     background-color: var(--color-orange);
     color: var(--color-gray-950);
   }
@@ -117,12 +128,17 @@ body {
 
 .thankyou__card {
   max-width: 330px;
+  height: 360px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 32px 24px;
   border-radius: 15px;
   background: var(--color-gradient);
   color: var(--color-white);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .thankyou__illustration {
@@ -176,6 +192,8 @@ body {
   .rating__card,
   .thankyou__card {
     max-width: 412px;
+    height: 416px;
+    padding: 32px 48px;
   }
 
   .rating__item {
